@@ -43,10 +43,11 @@ function App() {
             <Skills />
             <Experience />
           </Wrapper>
-          <Projects openModal={openModal} setOpenModal={setOpenModal} />
+        
           <Wrapper>
             <Education />
             <Contact />
+    <Projects />
             <Chatbox />  {/* Add the Chatbox here */}
           </Wrapper>
         </Body>
